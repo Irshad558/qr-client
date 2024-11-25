@@ -23,7 +23,7 @@ function App() {
                 })
             )
         } else {
-            fetch("https://qr-server-s0lu.onrender.com/qr-code",
+            fetch("https://qr-server-x8sq.onrender.com/qr-code",
                 {
                     method: "POST",
                     headers: {
