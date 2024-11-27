@@ -1,4 +1,4 @@
-"use client"
+
 
 import { Button } from "@/components/ui/button"
 import { useState } from 'react';
@@ -23,7 +23,7 @@ function App() {
                 })
             )
         } else {
-            fetch("https://qr-server-x8sq.onrender.com/qr-code",
+            fetch("https://qr-server-teal.vercel.app/qr-code",
                 {
                     method: "POST",
                     headers: {
